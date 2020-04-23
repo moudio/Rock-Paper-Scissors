@@ -1,18 +1,31 @@
-h2 {
+.game-title {
   text-align: center;
+  margin: 20px;
 }
 .container {
-  display: flex;
   width: 50%;
   margin: 0px auto;
   text-align: center;
   margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 50px;
 }
 .flexbox-rps {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
 }
 .flexbox-rps img:hover {
   box-shadow: 0 5px 30px blue;
+}
+
+.flexbox-rps img {
+  margin: 30px;
+}
+
+.restart {
+  margin: 0 auto;
+  display: none;
 }

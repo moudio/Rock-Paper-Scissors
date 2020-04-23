@@ -11,13 +11,16 @@
 </head>
 
 <body>
-    <h2>Rock Paper Scissors Game</h2>
+    <h2 class="game-title">Rock Paper Scissors Game</h2>
     <div class="container">
         <div class="flexbox-rps" id="flexbox-rps-div">
-            <img src="./pictures/rock.png" height="150" width="150" alt="Rock" onClick='rpsGame(this)'>
-            <img src="./pictures/paper.svg" height="150" width="150" alt="Paper" onClick='rpsGame(this)'>
-            <img src="./pictures/scissors.png" height="150" width="150" alt="Scissors" onClick='rpsGame(this)'>
+            <img src="./pictures/rock.png" height="150" width="150" alt="rock" id="rock" onClick='rpsGame(this)'>
+            <img src="./pictures/paper.svg" height="150" width="150" alt="paper" id="paper" onClick='rpsGame(this)'>
+            <img src="./pictures/scissors.png" height="150" width="150" alt="scissors" id="scissors"
+                onClick='rpsGame(this)'>
+
         </div>
+        <button class="btn btn-success restart" onclick=restart()>Restart</button>
     </div>
 
     <script src="./index.js"></script>
