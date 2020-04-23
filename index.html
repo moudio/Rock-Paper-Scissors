@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper and Scissors Game</title>
+</head>
+
+<body>
+    <h2 class="game-title">Rock Paper Scissors Game</h2>
+    <div class="container">
+        <div class="flexbox-rps" id="flexbox-rps-div">
+            <img src="./pictures/rock.png" height="150" width="150" alt="rock" id="rock" onClick='rpsGame(this)'>
+            <img src="./pictures/paper.svg" height="150" width="150" alt="paper" id="paper" onClick='rpsGame(this)'>
+            <img src="./pictures/scissors.png" height="150" width="150" alt="scissors" id="scissors"
+                onClick='rpsGame(this)'>
+
+        </div>
+        <button class="btn btn-success restart" onclick=restart()>Restart</button>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
