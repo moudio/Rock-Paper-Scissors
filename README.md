@@ -1,8 +1,8 @@
-# Rock-Paper-Scissors Game 
-![screenshot](./screenshot.png)
+# Rock-Paper-Scissors Game
+![screenshot](./pictures/screenshot.png)
 
-## Description: 
-A Small Fun Game about rock, paper and scissors 
+## Description:
+A Small Fun Game about rock, paper and scissors
 
 ## Technologies:
 
